@@ -1,0 +1,6 @@
+[britannica]
+git-tree-sha1 = "5b1dea947c2c99879ad7d922af5767030b0939ae"
+
+    [[britannica.download]]
+    sha256 = "d0580f434bb9f111a7dfe18f48face1a22a9a14b2284d86522d05ef76d54e55f"
+    url = "https://github.com/Trumpingtons/PollisBritannica.jl/releases/download/2026-11-24/britannica-2026-11-24.tar.gz"
