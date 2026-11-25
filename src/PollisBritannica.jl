@@ -31,9 +31,6 @@ articles() = joinpath(artifact"britannica", "articles.parquet")
 """The Parquet file of the editions, a row per edition: `edition`, `label`, `years`, `volumes`, `articles` and `chars`."""
 editions() = joinpath(artifact"britannica", "editions.parquet")
 
-"""The JSON file of the cases: articles followed through the editions, one row per edition of each case, with what changes from one to the next."""
-cases() = joinpath(artifact"britannica", "cases.json")
-
 """
 The Parquet file of the texts, a row per article: its `id` in `articles()` and its `text`, a paragraph a line, as the
 Internet Archive read it from the scan. It is downloaded the first time it is asked for, about 500 MB.

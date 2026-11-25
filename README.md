@@ -8,7 +8,6 @@ The files are the package's two artifacts. Pkg downloads the index, about 30 MB,
 using PollisBritannica
 PollisBritannica.articles()  # the path of articles.parquet
 PollisBritannica.editions()  # the path of editions.parquet
-PollisBritannica.cases()     # the path of cases.json
 PollisBritannica.texts()     # the path of texts.parquet, downloaded the first time
 ```
 
@@ -37,10 +36,6 @@ One row per article: its `id` and its `text`, a paragraph a line. The running he
 ## editions.parquet
 
 One row per edition: `edition`, `label`, `years`, `volumes`, `articles` and `chars`, the characters of all its articles. The tenth, twelfth and thirteenth editions are new volumes added to the edition before them, and only those volumes are in it.
-
-## cases.json
-
-Articles followed through the editions, one row per edition of each case: `id`, `name` and `summary` of the case, `edition`, the `key` and `article` (a pattern of the title) of the article it follows there, and a `note` on what changed. The cases are Petra, Charles Darwin, Evolution and Alexander von Humboldt; their source is `data/cases.toml`.
 
 ## How the articles are found
 
