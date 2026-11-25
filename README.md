@@ -2,7 +2,7 @@
 
 An index of the articles of the Encyclopaedia Britannica in every edition from the first, of 1768 to 1771, to the fourteenth, of 1929, in its printings of 1929 and 1930, with the full text of each article, read from the scans of the [Internet Archive](https://archive.org), for the built-in database PollisBritannica of [Pollis](https://pollis.org) and its page Britannica Through the Editions.
 
-The files are the package's two artifacts. Pkg downloads the index, about 30 MB, when the package is added or updated; the texts, about 500 MB, are downloaded the first time they are asked for:
+The files are the package's two artifacts. Pkg downloads the index, about 4 MB, when the package is added or updated; the texts, about 535 MB, are downloaded the first time they are asked for:
 
 ```julia
 using PollisBritannica
