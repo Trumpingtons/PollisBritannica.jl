@@ -20,9 +20,10 @@ using Artifacts, LazyArtifacts
 
 """
 The Parquet file of the articles, a row per article of each edition: `id` (by which `texts()` gives its text),
-`edition`, `volume`, `item` (the Internet Archive item of the scan), `printing` (in the fourteenth edition, 1929 or 1930,
+`edition`, `volume`, `item` (the Internet Archive item of the scan), `file` (the file of the volume, in an item that holds
+several volumes), `printing` (in the fourteenth edition, 1929 or 1930,
 where the copy's notice page shows it), `page` and `end_page` (the pages of the scan where the article starts and ends,
-linked as `https://archive.org/details/<item>/page/n<page>`), `key` (the headword in
+linked as `https://archive.org/details/<item>/<file>/page/n<page>`, without `<file>` in an item of one volume), `key` (the headword in
 capital letters A to Z only, to look it up), `headword`, `title`, `chars` and `signature` (the contributor's initials,
 where the article is signed).
 """

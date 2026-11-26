@@ -1,9 +1,9 @@
 [britannica]
-git-tree-sha1 = "98ae9c1279c78a8b126af4f7af9630e84adb0eb3"
+git-tree-sha1 = "4376d54eddc530f3700aa640afb60494a9b2e4b0"
 
     [[britannica.download]]
-    sha256 = "08c2eb969509e7f30f948b38779a2df1190706b04a0cefcb0ff438f70d37e17d"
-    url = "https://github.com/Trumpingtons/PollisBritannica.jl/releases/download/2026-11-25/britannica-2026-11-25.tar.gz"
+    sha256 = "0f61ce1c695a3e5a2f27a0c29aa1b50c847210e0b10b6fdfd5a760d8c239c300"
+    url = "https://github.com/Trumpingtons/PollisBritannica.jl/releases/download/2026-11-26/britannica-index-2026-11-26.tar.gz"
 
 [britannica_texts]
 git-tree-sha1 = "16bc1d2675f5a09ca3c07f74fed27a0357459ce5"

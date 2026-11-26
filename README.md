@@ -22,7 +22,8 @@ One row per article of each edition.
 | `id` | the article's number, by which `texts.parquet` gives its text |
 | `edition` | `1` to `14`, and `3S` and `6S` for the supplements of 1801 and 1815–1824 |
 | `volume` | the volume, with `a` or `b` for the two parts of a volume bound apart; in the fourteenth edition, `.2`, `.3` and so on for the second and further copies of a volume |
-| `item`, `page`, `end_page` | the item of the Internet Archive and the pages of its scan where the article starts and ends: `https://archive.org/details/<item>/page/n<page>`; no pages for the scans without a page index |
+| `item`, `page`, `end_page` | the item of the Internet Archive and the pages of its scan where the article starts and ends: `https://archive.org/details/<item>/<file>/page/n<page>`, without `<file>` in an item of one volume; no pages for the scans without a page index |
+| `file` | the file of the volume, in an item of the Internet Archive that holds several volumes |
 | `printing` | in the fourteenth edition, the printing of the copy, 1929 or 1930, the last year of the copyright notice on the back of its title page; empty for a copy whose notice page is missing, and for the other editions |
 | `key` | the headword in the capital letters A to Z only, to look an article up in every edition |
 | `headword`, `title` | the headword, and the title with its qualifiers, as the scan reads them |
